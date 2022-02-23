@@ -1,0 +1,20 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "an API rest using express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "nodejs"
+  ],
+  "author": "Daniel Terreros",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
