@@ -4,7 +4,12 @@
   "description": "an API rest using express.js",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielT565/express_work.git"
   },
   "keywords": [
     "api",
@@ -14,7 +19,15 @@
   ],
   "author": "Daniel Terreros",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielT565/express_work/issues"
+  },
+  "homepage": "https://github.com/DanielT565/express_work#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
   }
 }
